@@ -1,0 +1,1081 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+/* navbar and background */
+
+.blackcolor {
+
+position: absolute;
+background: rgba(0, 0, 0, 0.651);
+height: 100%;
+top: 0;
+width: 100%;
+z-index: -1;
+
+}
+
+@keyframes mymove {
+
+0% { top: 89vh;     }
+100% {  top: 94vh;  }
+
+}
+
+.nav::after {
+
+content: "EZ";
+position: absolute;
+top: 90vh;
+cursor: pointer;
+text-align: center;
+font-size: 25px;
+animation: mymove 2s infinite;
+padding: 20px 5px;
+
+}
+
+.nav {
+
+background-image: url(1.jpg);
+background-size: cover;
+background-position: 50%;
+height: 100%;
+position: relative;
+z-index: 1;
+color: white;
+text-align: center;
+position: relative;
+}
+
+.navbar {
+
+display: flex;
+list-style-type: none;
+justify-content: center;
+font-size: 18px;
+font-family: sans-serif;
+align-items: center;
+
+}
+
+.navbar li {
+
+padding: 20px;
+cursor: pointer;
+
+}
+
+.navbar li:hover {
+
+color: rgb(35, 160, 97);
+
+}
+
+.textnav {
+
+display: flex;
+align-items: center;
+
+}
+
+.textnav h2 {
+
+font-size: 30px;
+padding: 0px 120px 0px 20px;
+color: orange;
+cursor: pointer;
+
+}
+
+.diff {
+
+color: rgb(29, 216, 122);
+
+}
+
+.textbackground {
+height: 100%;
+display: flex;
+font-size: 35px;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.textbackground h1 {
+
+padding: 15px 0px;
+color: rgb(255, 123, 0);
+
+}
+
+.butto {
+
+padding: 15px 20px;
+border-radius: 30px;
+border: 2px solid white;
+font-weight: bold;
+background: none;
+color: white;
+cursor: pointer;
+transition: 0.7s;
+font-size: 18px;
+margin:25px auto 50px;
+width: 10%;
+
+}
+
+.butto:hover {
+
+background-color: white;
+color: black
+
+}
+
+/* About Me */
+
+.about {
+
+margin-top:100px;
+
+}
+
+.Know {
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+
+}
+
+.Know::before {
+
+content: "Know Me More";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.Know::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+.info {
+
+display: flex;
+width: 90%;
+margin: auto;
+margin-top: 50px;
+font-family: sans-serif;
+justify-content: center;
+
+}
+
+.sometext {
+
+line-height: 30px;
+width: 65%;
+
+}
+
+.sometext h3 {
+
+font-size: 30px;
+
+}
+
+.span {
+
+color: rgb(211, 177, 113);
+
+}
+
+.sometext p {
+
+font-size: 17px;
+color: rgb(48, 72, 94);
+
+}
+
+.form {
+
+width: 25%;
+margin-left: 30px;
+line-height: 55px;
+
+}
+
+.form p {
+
+font-size: 17px;
+
+}
+
+.colector {
+
+font-weight: bold;
+
+}
+
+.btn {
+
+padding: 18px 20px;
+border-radius: 30px;
+border: none;
+font-weight: bold;
+background-color: olivedrab;
+color: white;
+cursor: pointer;
+transition: 0.7s;
+font-size: 17px;
+margin:7px auto 0px;
+width: 70%;
+box-shadow: 0 0 10px rgba(106, 142, 35, 0.39);
+
+}
+
+.btn:hover {
+
+background-color: rgba(106, 142, 35, 0.726);
+
+}
+
+.marl {
+
+color: rgb(55, 143, 99);
+cursor: pointer;
+
+}
+
+.marl:hover {
+
+color: rgb(41, 100, 70);
+
+}
+
+.numbers {
+
+margin: 70px 0px;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+line-height: 35px;
+font-family: Arial, Helvetica, sans-serif;
+color: #6c757d;
+font-size: 18px;
+
+}
+
+.numbers h2 {
+
+font-size: 50px;
+
+}
+
+.line {
+
+background-color: #181d22;
+width: 1px;
+
+}
+
+/* SERVICES */
+
+.what {
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+
+}
+
+.what::before {
+
+content: "What I Do ?";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.what::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+.backcolor {
+
+background-color: #f8f9fa;
+padding: 80px 0px 30px;
+
+}
+
+.services {
+
+width: 80%;
+margin: auto;
+display: flex;
+font-family: sans-serif;
+
+}
+
+.forfun {
+
+padding: 15px;
+background-color: white;
+color: rgb(87, 87, 72);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
+font-size: 20px;
+
+}
+
+.icons {
+
+display: flex;
+margin: 30px 15px;
+align-items: flex-start;
+
+}
+
+.names {
+
+font-size: 18px;
+margin-left: 15px;
+line-height: 30px;
+
+}
+
+/* SUMMARY */
+
+.summary {
+
+margin-top: 80px;
+
+}
+
+.resume {
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+
+}
+
+.resume::before {
+
+content: "Resume";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.resume::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+.layer {
+
+background-color: #f8f9fa25;
+border: 1px solid rgba(126, 105, 105, 0.233);
+padding: 20px;
+line-height: 30px;
+font-size: 20px;
+margin-top: 20px;
+border-radius: 10px;
+
+}
+
+.taype {
+
+width: 44%;
+
+}
+
+.container {
+
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+
+}
+
+.layer h4 {
+
+background-color: olivedrab;
+color: white;
+padding: 5px;
+width: 22%;
+border-radius: 3px;
+
+}
+
+.just {
+
+font-size: 25px;
+
+}
+
+.coledown {
+
+font-size: 30px;
+color: red;
+
+}
+
+.zero {
+
+width: 44%;
+
+}
+
+.skill {
+
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+
+}
+
+.zero h2 {
+
+padding-bottom: 10px;
+position: relative;
+
+}
+
+.allin {
+
+height:5% ;
+background-color:#dae0e6; ;
+border-radius: 50px;
+margin-bottom: 25px;
+border: none;
+position: relative;
+
+}
+
+.luna::after {
+
+content: "";
+border: 5px solid rgb(174, 0, 255);
+width: 65%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.luna2::after {
+
+content: "";
+border: 5px solid rgb(174, 0, 255);
+width: 95%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.luna3::after {
+
+content: "";
+border: 5px solid rgb(174, 0, 255);
+width: 80%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.luna4::after {
+
+content: "";
+border: 5px solid rgb(174, 0, 255);
+width: 75%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.luna6::after {
+
+content: "";
+border: 5px solid rgb(174, 0, 255);
+width: 98%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.leno::after {
+
+content: "65%";
+position:absolute ;
+right: 0;
+font-size: 20px;
+z-index: 100;
+color: red;
+
+}
+
+.leno2::after {
+
+content: "95%";
+position:absolute ;
+right: 0;
+font-size: 20px;
+z-index: 100;
+color: red;
+
+}
+
+.leno3::after {
+
+content: "80%";
+position:absolute ;
+right: 0;
+font-size: 20px;
+z-index: 100;
+color: red;
+
+}
+
+.leno4::after {
+
+content: "70%";
+position:absolute ;
+right: 0;
+font-size: 20px;
+z-index: 100;
+color: red;
+
+}
+
+.leno6::after {
+
+content: "98%";
+position:absolute ;
+right: 0;
+font-size: 20px;
+z-index: 100;
+color: red;
+
+}
+
+/* dadbtn */
+
+.cv {
+
+padding: 18px 20px;
+border-radius: 30px;
+border: 2px solid rgb(83, 53, 53);
+font-weight: bold;
+background-color: white;
+color: rgb(83, 53, 53);
+cursor: pointer;
+transition: 0.7s;
+font-size: 17px;
+margin:60px auto 0px;
+width: 15%;
+
+}
+
+.cv:hover {
+
+background-color: rgb(83, 53, 53);
+color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+
+}
+
+.dadbtn {
+
+text-align: center;
+margin-bottom: 70px;
+
+
+}
+
+/* PORTFOLIO */
+
+.MyWork {
+
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+margin: 40px 0px;
+}
+
+.MyWork::before {
+
+content: "MyWork";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.MyWork::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+
+.PORTFOLIO {
+
+padding-top: 50px;
+background-color: #f8f9fa;
+height: 1300px;
+
+
+}
+
+
+.small {
+
+margin: 50px auto;
+width: 90%;
+text-align: center;
+
+}
+
+.butt {
+
+background-color: #f8f9fa;
+font-size: 18px;
+border: none;
+padding: 10px 0px;
+margin: 15px 15px 20px 15px;
+cursor: pointer;
+
+}
+
+.butt:hover {
+
+color: orange;
+
+}
+
+.like {
+
+border-bottom:2px solid orange;
+width: 4%;
+color: orange;
+
+}
+
+.contaierimg {
+
+width: 100%;
+margin: 30px auto 0px;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+
+}
+
+.contaierimg img {
+
+width: 30%;
+margin: 0px 15px;
+cursor: pointer;
+
+
+}
+
+.numimg {
+
+position: absolute;
+top: 0;
+left: 0px;
+
+}
+
+.numimg2 {
+
+position: absolute;
+top: 0;
+left: 34%;
+
+}
+.numimg3 {
+
+position: absolute;
+top: 0;
+right: 0px;
+
+}
+.numimg4 {
+
+position: absolute;
+top: 270px;
+left: 0;
+
+}
+.numimg5 {
+
+position: absolute;
+top: 260px;
+right: 0px;
+
+}
+.numimg6 {
+
+position: absolute;
+right: 0;
+top: 520px;
+
+}
+
+.numimg7 {
+
+position: absolute;
+left: 34%;
+top: 600px;
+
+}
+
+.contaierimg img:hover {
+
+opacity: 0.5;
+
+}
+
+/* testimonial */
+
+.clientspeak {
+
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+margin: 40px 0px;
+
+}
+
+.clientspeak::before {
+
+content: "Client Speak";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.clientspeak::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+.moon {
+
+display: flex;
+align-items: center;
+
+}
+
+.moon img {
+
+width: 15%;
+border-radius: 500px;
+margin-right: 15px;
+
+}
+
+.sun {
+
+width: 43%;
+background-color:#f8f9fa ;
+border-radius: 10px;
+padding: 30px;
+line-height: 25px;
+font-family: sans-serif;
+font-size: 17px;
+
+}
+
+.icon-star-full {
+
+color: orange;
+font-size: 20px;
+
+}
+
+.vilvo {
+
+display: flex;
+margin: auto;
+width: 90%;
+justify-content: space-between;
+
+}
+
+.testimonial {
+
+margin: 80px 0px;
+
+}
+
+/* CONTACT */
+
+.CONTACT {
+
+background-color: #f8f9fa;
+padding: 70px 0px;
+
+}
+
+.Getintouch {
+
+text-align: center;
+font-size: 110px;
+color: rgba(0, 0, 0, 0.082);
+position: relative;
+
+}
+
+.Getintouch::before {
+
+content: "Get In Touch";
+position: absolute;
+top :43px;
+left: 0;
+right: 0;
+color: black;
+font-size: 30px;
+
+}
+
+.Getintouch::after {
+content: "";
+border-bottom: 3px solid rgb(190, 125, 3);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 44px;    
+width: 7%;
+margin: auto;
+
+} 
+
+.ADDRESS {
+
+line-height: 25px;
+font-size: 17px;
+width: 30%;
+
+}
+
+.allout {
+
+width: 90%;
+display: flex;
+align-items: flex-start;
+margin:50px auto 0;
+font-family: sans-serif;
+justify-content: center;
+
+}
+
+.datas {
+
+width: 65%;
+
+}
+
+textarea {
+
+width: 99%;
+padding:8px 10px ;
+font-size: 18px;
+border: 1px solid #bbc6d1;
+border-radius: 5px;
+
+}
+
+.datas input {
+
+width: 49%;
+padding: 10px;
+border: 1px solid #bbc6d1;
+border-radius: 5px;
+
+}
+
+.sendmegss {
+
+padding: 18px 20px;
+border-radius: 30px;
+border: none;
+font-weight: bold;
+background-color: olivedrab;
+color: white;
+cursor: pointer;
+transition: 0.7s;
+font-size: 17px;
+margin: 0px 35%;
+width: 30%;
+box-shadow: 0 0 10px rgba(106, 142, 35, 0.39);
+
+}
+
+.sendmegss:hover {
+
+background-color: rgba(106, 142, 35, 0.726);
+
+}
+
+/* footer */
+
+.last {
+
+font-size: 20px;
+
+}
+
+.copy {
+
+width: 90%;
+margin: 60px auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+.disnf {
+
+display: flex;
+
+}
+
+.Terms:hover {
+
+color: orange;
+cursor: pointer;
+
+}
+
+.disnf hr {
+
+margin: 0px 10px;
+
+}
+
+.allright {
+
+color:olivedrab ;
+cursor: pointer;
+
+}
+
+.allright:hover {
+
+color: orange;
+
+}
+
+/* sry for no media quary really i hate it so much */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
